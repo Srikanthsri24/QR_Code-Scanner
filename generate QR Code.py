@@ -11,10 +11,10 @@ for _ in range (0,len(lines)):
         str(data),
         level='H',
         version=1,
-        picture="Bg.png",
+        picture="Bg.jpg",
         colorized=True,
         contrast=1.0,
         brightness=1.0,
-        save_name = str(lines[_]+'.png'),
+        save_name = str(lines[_]+'.jpg'),
         save_dir=os.getcwd()
     )
